@@ -249,4 +249,22 @@ header{
     scale: 105%;
   }
 
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+  }
   
+  .about-content p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .about-img img {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
