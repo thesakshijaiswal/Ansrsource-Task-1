@@ -9,7 +9,7 @@
     --text-dark: #333333;
     --text-light: #767268;
     --white: #ffffff;
-    --max-width: 1200px;
+    --max-width: 1500px;
     --btn-hover: #ec8b30;
 }
 *{
@@ -316,4 +316,20 @@ header{
   
   .features p {
     color: var(--text-light);
+  }
+
+  .footer {
+    background-color: var(--primary-color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container p{
+    color: var(--text-dark);
+    font-weight: 500;
+  }
+  .footer-container p a{
+    color: var(--primary-color);
+    font-weight: 500;
   }
