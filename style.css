@@ -333,3 +333,47 @@ header{
     color: var(--primary-color);
     font-weight: 500;
   }
+
+
+  @media (width < 900px) {
+    .nav-link-container{
+      display: none;
+    }
+
+    .header-container{
+      flex-direction: column;
+    }
+
+    .header-form{
+      max-width: 400px;
+    }
+    .service-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  
+    .about-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .about-img {
+      grid-area: 1/1/2/2;
+    }
+  
+    .about-content {
+      text-align: center;
+    }
+  
+    .whyUs-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .whyUs-content {
+      text-align: center;
+    }
+  
+    .whyUs-grid {
+      text-align: left;
+    }
+  }
+  
