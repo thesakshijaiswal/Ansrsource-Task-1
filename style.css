@@ -91,6 +91,10 @@ header{
     height: 70px;
 }
 
+.nav-link-container{
+    display: flex;
+}
+
 .nav-links{
     list-style: none;
     display: flex;
@@ -99,6 +103,10 @@ header{
     gap: 2rem;
 }
 
+.hamburger{
+  display: none;
+  color: var(--text-head);
+}
 .link a{
     padding: 0.5rem;
     color: var(--primary-color-light);
@@ -338,6 +346,10 @@ header{
   @media (width < 900px) {
     .nav-link-container{
       display: none;
+    }
+
+    .hamburger{
+      display: block;
     }
 
     .header-container{
