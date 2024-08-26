@@ -205,6 +205,7 @@ header{
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: ease-in-out 0.3s;
   }
 
   .service-card span {
@@ -242,6 +243,10 @@ header{
 
   .service-card a:hover{
     color: var(--primary-color);
+  }
+
+  .service-card:hover{
+    scale: 105%;
   }
 
   
