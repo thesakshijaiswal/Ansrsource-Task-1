@@ -28,7 +28,7 @@
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: var(--text-dark);
+    color: var(--text-head);
 }
 
 .btn{
@@ -156,10 +156,92 @@ header{
 }
 
 .header-form input::placeholder{
-    color: var(--primary-color);
+    color: var(--text-head);
 }
 
 .form-btn:hover{
     background-color: var(--btn-hover);
 }
 
+.service-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .service-head-content p {
+    max-width: 600px;
+    color: var(--text-light);
+  }
+  
+  .service-btn {
+    padding: 0.75rem 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .service-btn:hover{
+    background-color: var(--primary-color-dark);
+  }
+
+  .service-grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .service-card {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .service-card span {
+    display: inline-block;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    background-color: var(--primary-color-light);
+    border-radius: 100%;
+    transition: 0.3s;
+  }
+
+  .service-card span:hover{
+    background-color: var(--text-head);
+    color: var(--white);
+  }
+
+  .service-card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+
+  .service-card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+
+  .service-card a {
+    color: var(--text-head);
+  }
+
+  .service-card a:hover{
+    color: var(--primary-color);
+  }
+
+  
