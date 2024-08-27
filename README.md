@@ -4,21 +4,21 @@
 
 ## Table of Contents 🧾
 
-- [Overview 🪟](#overview-🪟)
-- [Features 🪶](#features-🪶)
-- [Tech Stack 🔥](#tech-stack-🔥)
-- [Live Demo 🪧](#live-demo-🪧)
-- [Getting Started 🌠](#getting-started-🌠)
-  - [Prerequisites 🔨](#prerequisites-🔨)
-  - [Installation 💻](#installation-💻)
-- [License 📑](#license-📑)
-- [Author 👩🏼‍💻](#author-👩🏼‍💻)
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [License](#license)
+- [Author](#author)
 
-## Overview 🪟
+## Overview
 
 MediGo is a responsive hospital service website built with HTML, CSS, and JavaScript, offering a seamless user experience across all devices. The site is designed using best practices, including SEO optimization, smooth transitions, and intuitive hover states. Semantic HTML tags ensure accessibility for all users, while engaging illustrations enhance the visual appeal.
 
-## Features 🪶
+## Features
 
 - **Responsive Design:** Adaptable to any device, ensuring a smooth user experience across desktops, tablets, and smartphones.
 - **SEO Optimized:** Designed with SEO best practices to improve search engine visibility.
@@ -26,33 +26,33 @@ MediGo is a responsive hospital service website built with HTML, CSS, and JavaSc
 - **Accessible:** Semantic HTML tags and ARIA roles ensure the site is accessible to all users, including those with disabilities.
 - **Engaging Illustrations:** Visually appealing illustrations that enhance content presentation.
 
-## Tech Stack 🔥
+## Tech Stack
 
 - **HTML:** Semantic markup for content structure and accessibility with Consistent selector naming.
 - **CSS:** Responsive styling, smooth transitions, and visual design by using different selectors/pseudo selectors and extracting the constants as CSS variables.
 - **JavaScript:** Enhances interactivity by leveraging the DOM manipulation with suitable selectors and attributes with well commented code.
 - **FontAwesome:** Used the CDN of fontawesome to get the web optimized icons.
 
-## Preview 🖼️
+## Preview
 
 ![Preview Screenshot](./assets/Preview.png)
 
-## Live Demo 🪧
+## Live Demo
 
 [MediGo](https://medigo-by-me.vercel.app) Live on Vercel 🟢
 
-## Getting Started 🌠
+## Getting Started
 
 Follow these steps to set up the project locally.
 
-### Prerequisites 🔨
+### Prerequisites
 
 Make sure you have the following installed:
 
 - [Git](https://git-scm.com/)
 - A code editor like [VS Code](https://code.visualstudio.com/)
 
-### Installation 💻
+### Installation
 
 1. **Clone the repository:**
 
@@ -80,11 +80,11 @@ Make sure you have the following installed:
 
    `just download as zip, extract and open the index.html file in your favorite browser`
 
-## License 📑
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Author 👩🏼‍💻
+## Author
 
 Name: Sakshi Jaiswal
 
