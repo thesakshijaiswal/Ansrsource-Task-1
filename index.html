@@ -1,158 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex,follow"/>
-    <meta name="author" content="Sakshi Jaiswal">
-    <meta name="description" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,follow" />
+    <meta name="author" content="Sakshi Jaiswal" />
+    <meta name="description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
     <title>MediGo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/mediGo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/mediGo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="index.js" defer></script>
     <script src="https://cdn.jsdelivr.net/gh/rick-liruixin/body-scroll-lock-upgrade@v1.1.0/lib/index.umd.js"></script>
-</head>
-<body>
-<header>
-    <nav class="section-container nav-container">
+  </head>
+  <body>
+    <header>
+      <nav class="section-container nav-container">
         <div class="logo">
-            <img src="./assets//mediGo.png" alt="logo">
-            <span>Medigo</span>
+          <img src="./assets//mediGo.png" alt="logo" />
+          <span>Medigo</span>
         </div>
         <span id="nav-label" hidden>navigation</span>
-        <button id="btn-open" class="nav-open" aria-expanded="false" aria-labelledby="nav-label">
+        <button
+          id="btn-open"
+          class="nav-open"
+          aria-expanded="false"
+          aria-labelledby="nav-label"
+        >
           <i class="fa-solid fa-bars"></i>
         </button>
-        <div class="nav-link-container" role="dialog" aria-labelledby="nav-label">
-        <button class="nav-close" id="btn-close" aria-label="close">
-          <i class="fa-solid fa-xmark"></i>
-        </button> 
-        <ul class="nav-links">
+        <div
+          class="nav-link-container"
+          role="dialog"
+          aria-labelledby="nav-label"
+        >
+          <button class="nav-close" id="btn-close" aria-label="close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <ul class="nav-links">
             <li class="link"><a href="#">Home</a></li>
             <li class="link"><a href="#about">About Us</a></li>
             <li class="link"><a href="#service">Services</a></li>
             <li class="link"><a href="#">Pages</a></li>
             <li class="link"><a href="#">Blogs</a></li>
-        </ul>
-        <button class="btn contact-btn">Contact Us</button>
+          </ul>
+          <button class="btn contact-btn">Contact Us</button>
         </div>
-    </nav>
-    <div class="section-container header-container">
+      </nav>
+      <div class="section-container header-container">
         <div class="head-content">
-            <h1>Delivering an Outstanding Care Journey for Patients</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati laborum recusandae molestias vel totam ipsam! Ullam quas animi ex provident laudantium sit, neque expedita earum eum nesciunt maiores! Voluptate, corrupti architecto. Facilis facere consequatur voluptatibus ea animi soluta maxime.</p>
-            <button class="btn">Get Services <i class="fa-solid fa-arrow-right"></i></button>
+          <h1>Delivering an Outstanding Care Journey for Patients</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati
+            laborum recusandae molestias vel totam ipsam! Ullam quas animi ex
+            provident laudantium sit, neque expedita earum eum nesciunt maiores!
+            Voluptate, corrupti architecto. Facilis facere consequatur
+            voluptatibus ea animi soluta maxime.
+          </p>
+          <button class="btn">
+            Get Services <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
         <div class="header-form">
-            <form action="#" id="form">
+          <form action="#" id="form">
             <h4>Book Appointment</h4>
-            <input type="text" placeholder="First Name" id="firstName">
-            <input type="text" placeholder="Last Name" id="lastName">
-            <input type="text" placeholder="Phone No." id="phoneNo">
-            <input type="text" placeholder="Your Address" id="address">
+            <input type="text" placeholder="First Name" id="firstName" />
+            <input type="text" placeholder="Last Name" id="lastName" />
+            <input type="text" placeholder="Phone No." id="phoneNo" />
+            <input type="text" placeholder="Your Address" id="address" />
             <button class="btn form-btn">Book Now</button>
-        </form>
+          </form>
         </div>
-    </div>
-</header>
-<main>
-<section class="section-container service-container" id="service">
-    <div class="service-head">
-        <div class="service-head-content">
+      </div>
+    </header>
+    <main>
+      <section class="section-container service-container" id="service">
+        <div class="service-head">
+          <div class="service-head-content">
             <h2 class="section-header">Our Sevices</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis expedita maiores modi delectus. Consequuntur doloremque nam maiores et quae possimus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis expedita maiores modi delectus. Consequuntur doloremque
+              nam maiores et quae possimus.
+            </p>
+          </div>
+          <button class="service-btn">Ask a Service</button>
         </div>
-        <button class="service-btn">Ask a Service</button>
-    </div>
-    <div class="service-grid">
-        <!--Card: 01-->
-        <div class="service-card">
+        <div class="service-grid">
+          <!--Card: 01-->
+          <div class="service-card">
             <span><i class="fa-solid fa-vial-virus"></i></span>
             <h4>Laboratory Test</h4>
             <p>
-              Accurate Diagnostics, Swift Results: Experience top-notch Laboratory Testing at our facility.
+              Accurate Diagnostics, Swift Results: Experience top-notch
+              Laboratory Testing at our facility.
             </p>
             <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
           <!--Card: 02-->
-        <div class="service-card">
+          <div class="service-card">
             <span><i class="fa-solid fa-user-nurse"></i></span>
             <h4>Health Checkups</h4>
             <p>
-              Regular Health Checkups and Guidance from our Specialized Team of Doctors
+              Regular Health Checkups and Guidance from our Specialized Team of
+              Doctors
             </p>
             <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
           <!--Card: 03-->
-        <div class="service-card">
+          <div class="service-card">
             <span><i class="fa-solid fa-truck-medical"></i></span>
             <h4>Ambulatory care</h4>
             <p>
-                We provide medical services performed on an outpatient basis, without admission to a hospital.
+              We provide medical services performed on an outpatient basis,
+              without admission to a hospital.
             </p>
             <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
-    </div>
-</section>
+        </div>
+      </section>
 
-<section class="section-container about-container" id="about">
-    <div class="about-content">
-        <h2 class="section-header">About Us</h2>
-        <p>
-         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sapiente repellendus natus, modi ea dolores?
-        </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt commodi excepturi eum consectetur nulla dicta molestiae est cupiditate aspernatur magnam?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem vero temporibus illum labore sed odio. Possimus modi, obcaecati, asperiores vitae, maiores nesciunt at quam exercitationem voluptate reprehenderit in voluptatibus delectus ut praesentium ipsam iure!
-        </p>
-      </div>
-      <div class="about-img">
-        <img src="./assets/about.jpg" alt="About us">
-      </div>
-</section>
+      <section class="section-container about-container" id="about">
+        <div class="about-content">
+          <h2 class="section-header">About Us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+            sapiente repellendus natus, modi ea dolores?
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+            commodi excepturi eum consectetur nulla dicta molestiae est
+            cupiditate aspernatur magnam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem vero
+            temporibus illum labore sed odio. Possimus modi, obcaecati,
+            asperiores vitae, maiores nesciunt at quam exercitationem voluptate
+            reprehenderit in voluptatibus delectus ut praesentium ipsam iure!
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="./assets/about.jpg" alt="About us" />
+        </div>
+      </section>
 
-<section class="section-container whyUs-container">
-    <div class="whyUs-img">
-        <img src="./assets/whyUs.jpg" alt="Why Choose Us">
-    </div>
-    <div class="whyUs-content">
-        <h2 class="section-header">Why Choose Us?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil soluta laboriosam impedit dicta, optio magnam assumenda obcaecati iste reiciendis officiis eos voluptas quod sint ducimus ipsum deserunt? Ipsum cumque dolores atque est repellat cupiditate?</p>
-        <div class="features">
+      <section class="section-container whyUs-container">
+        <div class="whyUs-img">
+          <img src="./assets/whyUs.jpg" alt="Why Choose Us" />
+        </div>
+        <div class="whyUs-content">
+          <h2 class="section-header">Why Choose Us?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil
+            soluta laboriosam impedit dicta, optio magnam assumenda obcaecati
+            iste reiciendis officiis eos voluptas quod sint ducimus ipsum
+            deserunt? Ipsum cumque dolores atque est repellat cupiditate?
+          </p>
+          <div class="features">
             <span><i class="fa-solid fa-user-doctor"></i></span>
             <div>
               <h4>Inpatient care</h4>
               <p>
-                We provide Inpatient care to the patients whose condition requires admission to a hospital
+                We provide Inpatient care to the patients whose condition
+                requires admission to a hospital
               </p>
             </div>
             <span><i class="fa-solid fa-hospital"></i></span>
             <div>
               <h4>Clinics and medical offices</h4>
               <p>
-                We offer Clinics and medical offices who gives 24/7 medical support. 
+                We offer Clinics and medical offices who gives 24/7 medical
+                support.
               </p>
             </div>
             <span><i class="fa-solid fa-suitcase-medical"></i></span>
             <div>
               <h4>Medical and Surgical</h4>
               <p>
-                Our Medical and Surgical services offer advanced healthcare solutions to address medical needs.
+                Our Medical and Surgical services offer advanced healthcare
+                solutions to address medical needs.
               </p>
+            </div>
           </div>
-          </div>
-    </div>
-</section>
-</main>
-<footer class="footer">
-    <div class="section-container footer-container">
-        <p>&copy; 2024 All Rights Reserved By <a href="https://github.com/thesakshijaiswal">Sakshi Jaiswal</a></p>
-    </div>
-</footer>
-</body>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="section-container footer-container">
+        <p>
+          &copy; 2024 All Rights Reserved By
+          <a href="https://github.com/thesakshijaiswal">Sakshi Jaiswal</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
