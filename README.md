@@ -35,7 +35,7 @@ MediGo is a responsive hospital service website built with HTML, CSS, and JavaSc
 
 ## Preview 🖼️
 
-![Preview Screenshot](./assets/preview.png)
+![Preview Screenshot](./assets/Preview.png)
 
 ## Live Demo 🪧
 
