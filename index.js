@@ -32,7 +32,6 @@ function openMobileMenu() {
 // Close menu
 function closeMobileMenu() {
   btnOpen.setAttribute("aria-expanded", "false");
-  navLinkContainer.setAttribute("inert", "");
   btnOpen.focus();
 
   // set transition value to none when menu is closed
