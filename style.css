@@ -61,6 +61,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Header section */
+
 header {
   background-image: linear-gradient(
       to left,
@@ -150,6 +152,9 @@ header {
   color: var(--primary-color-light);
 }
 
+
+/* Header form section */
+
 .header-form {
   width: 100%;
   max-width: 350px;
@@ -184,6 +189,8 @@ header {
 .form-btn:hover {
   background-color: var(--btn-hover);
 }
+
+/* Service section */
 
 .service-head {
   display: flex;
@@ -271,6 +278,8 @@ header {
   scale: 105%;
 }
 
+/* About section */
+
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -290,6 +299,8 @@ header {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Why us section */
+
 .whyUs-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -307,6 +318,8 @@ header {
 .whyUs-content p {
   color: var(--text-light);
 }
+
+/* why us feature list section */
 
 .features {
   margin-top: 4rem;
@@ -339,6 +352,8 @@ header {
 .features p {
   color: var(--text-light);
 }
+
+/* Footer section */
 
 .footer {
   background-color: var(--primary-color-light);
