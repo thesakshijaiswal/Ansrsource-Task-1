@@ -1,4 +1,4 @@
-# MediGo: Ansrsource Task 01
+# MediGo:
 
 <em> An assessment task from Ansrsource for Internship role. Thanks for providing the opportunity to showcase my skills </em>
 
